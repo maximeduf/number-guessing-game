@@ -22,17 +22,17 @@ form {
   row-gap: 25px;
 }
 
-form > div,
-form > p {
+.form-group,
+#message {
   align-self: center;
 }
 
 #number-guess {
-    width: 6ch;
+  width: 6ch;
 }
 
 #attemps-left {
-    width: 4ch;
+  width: 4ch;
 }
 
 button {
