@@ -2,9 +2,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
+  max-width: 1060px;
+  margin: auto;
 }
 
 h1 {
+  margin-bottom: 0;
   grid-row: 1 / span 1;
   grid-column: 1 / span 3;
   justify-self: center;
