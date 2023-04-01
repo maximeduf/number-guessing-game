@@ -10,20 +10,19 @@
   <body>
     <main class="container">
       <h1>Guess the mystery number!</h1>
-      <h2>The number is between 0 and 100. Good luck!</h2>
-      <p id="message"></p>
       <form>
         <div class="form-group">
           <label for="guess">Your guess :</label>
-          <input type="number" name="guess" id="number-guess"/>
+          <input type="number" name="guess" id="number-guess" />
         </div>
         <div class="form-group">
           <label for="attemps">Attempts left :</label>
-          <input type="number" name="attemps" id="attemps-left" disabled/>
+          <input type="number" name="attemps" id="attemps-left" disabled />
         </div>
-        <button id="guess-btn">Guess</button>
+        <p id="message">The number is between 0 and 100. Good luck!</p>
       </form>
-      <img src="image.jpg" alt="image of cluster of numbers">
+      <button id="guess-btn">Guess</button>
+      <img src="image.jpg" alt="image of cluster of numbers" />
     </main>
     <script src="main.js"></script>
   </body>

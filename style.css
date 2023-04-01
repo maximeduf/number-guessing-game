@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+h1 {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+  justify-self: center;
+}
+
+form {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  align-self: center;
+  display: flex;
+  flex-flow: column nowrap;
+  row-gap: 25px;
+}
+
+form > div,
+form > p {
+  align-self: center;
+}
+
+#number-guess {
+    width: 6ch;
+}
+
+#attemps-left {
+    width: 4ch;
+}
+
+button {
+  grid-row: 3 / span 1;
+  grid-column: 2 / span 1;
+  margin: auto;
+}
+
+#message {
+  color: red;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 1;
+  transform: scale(0.8);
+}
